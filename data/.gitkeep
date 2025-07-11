@@ -1,1 +1,130 @@
-
+[
+  {
+    "name": "Paracetamol",
+    "condition": "Fever, Cold, Body Pain, Headache",
+    "dosage": "500mg every 6 hours",
+    "duration": "3-5 days",
+    "interactions": ["Ibuprofen"],
+    "alternatives": ["Acetaminophen", "Aspirin"]
+  },
+  {
+    "name": "Ibuprofen",
+    "condition": "Inflammation, Pain, Body Pain, Headache",
+    "dosage": "400mg every 4-6 hours",
+    "duration": "As needed",
+    "interactions": ["Paracetamol", "Aspirin"],
+    "alternatives": ["Naproxen", "Diclofenac"]
+  },
+  {
+    "name": "Aspirin",
+    "condition": "Pain, Inflammation, Fever, Heart Health",
+    "dosage": "300mg once daily",
+    "duration": "As directed",
+    "interactions": ["Ibuprofen"],
+    "alternatives": ["Paracetamol", "Clopidogrel"]
+  },
+  {
+    "name": "Amoxicillin",
+    "condition": "Bacterial Infection, Throat Infection, Respiratory Infection",
+    "dosage": "500mg every 8 hours",
+    "duration": "7 days",
+    "interactions": ["Methotrexate"],
+    "alternatives": ["Azithromycin", "Cefixime"]
+  },
+  {
+    "name": "Atorvastatin",
+    "condition": "Cholesterol, Heart Health",
+    "dosage": "10mg once daily",
+    "duration": "Long-term",
+    "interactions": ["Grapefruit"],
+    "alternatives": ["Rosuvastatin", "Simvastatin"]
+  },
+  {
+    "name": "Metformin",
+    "condition": "Diabetes, High Blood Sugar",
+    "dosage": "500mg twice daily",
+    "duration": "Long-term",
+    "interactions": ["Alcohol"],
+    "alternatives": ["Glipizide", "Sitagliptin"]
+  },
+  {
+    "name": "Omeprazole",
+    "condition": "Acidity, Reflux, Gastric",
+    "dosage": "20mg once daily",
+    "duration": "4-8 weeks",
+    "interactions": ["Clopidogrel"],
+    "alternatives": ["Pantoprazole", "Esomeprazole"]
+  },
+  {
+    "name": "Losartan",
+    "condition": "High Blood Pressure, Hypertension",
+    "dosage": "50mg once daily",
+    "duration": "Long-term",
+    "interactions": ["Potassium supplements"],
+    "alternatives": ["Telmisartan", "Enalapril"]
+  },
+  {
+    "name": "Cetirizine",
+    "condition": "Allergy, Sneezing, Cold, Throat Pain",
+    "dosage": "10mg once daily",
+    "duration": "5-7 days",
+    "interactions": [],
+    "alternatives": ["Loratadine", "Levocetirizine"]
+  },
+  {
+    "name": "Pantoprazole",
+    "condition": "Acidity, Gastric, Reflux",
+    "dosage": "40mg once daily",
+    "duration": "4 weeks",
+    "interactions": [],
+    "alternatives": ["Omeprazole", "Rabeprazole"]
+  },
+  {
+    "name": "Azithromycin",
+    "condition": "Throat Infection, Bacterial Infection",
+    "dosage": "500mg once daily",
+    "duration": "3-5 days",
+    "interactions": ["Antacids"],
+    "alternatives": ["Amoxicillin", "Clarithromycin"]
+  },
+  {
+    "name": "Salbutamol",
+    "condition": "Asthma, Wheezing, Shortness of Breath",
+    "dosage": "2 puffs as needed",
+    "duration": "As needed",
+    "interactions": ["Beta-blockers"],
+    "alternatives": ["Levosalbutamol"]
+  },
+  {
+    "name": "Lisinopril",
+    "condition": "High Blood Pressure, Heart Failure",
+    "dosage": "10mg once daily",
+    "duration": "Long-term",
+    "interactions": ["Potassium supplements"],
+    "alternatives": ["Enalapril", "Ramipril"]
+  },
+  {
+    "name": "Clopidogrel",
+    "condition": "Heart Health, Blood Thinner",
+    "dosage": "75mg once daily",
+    "duration": "Long-term",
+    "interactions": ["Omeprazole"],
+    "alternatives": ["Aspirin", "Ticagrelor"]
+  },
+  {
+    "name": "Levothyroxine",
+    "condition": "Thyroid, Hypothyroidism",
+    "dosage": "50mcg once daily",
+    "duration": "Long-term",
+    "interactions": ["Calcium supplements"],
+    "alternatives": ["Liothyronine"]
+  },
+  {
+    "name": "Mebeverine",
+    "condition": "Stomach Pain, Abdominal Cramps, IBS",
+    "dosage": "135mg 2-3 times daily",
+    "duration": "As directed",
+    "interactions": [],
+    "alternatives": ["Drotaverine", "Hyoscine"]
+  }
+]
