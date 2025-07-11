@@ -32,8 +32,8 @@ class ConditionName(BaseModel):
 # 1. Get full drug information
 @app.get("/")
 def root():
-    return {"message"; "API is working!"}
-@app.get("/drug_info")
+    return {"message": "API is working!"}
+@app.get("/get_drug_info")
 def get_drug_info(name: str = Query(..., description="Enter the drug name")):
     drug = find_drug_by_name(name)
     if drug:
