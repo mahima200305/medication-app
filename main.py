@@ -116,6 +116,4 @@ def identify_medicine_image(file: UploadFile = File(...)):
         if drug in filename:
             return {"identified_drug": drug.capitalize()}
     return {"identified_drug": "Unknown - Image recognition model not implemented yet"}
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=10000)
+
