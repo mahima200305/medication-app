@@ -1,130 +1,884 @@
 [
   {
     "name": "Paracetamol",
-    "condition": "Fever, Cold, Body Pain, Headache",
-    "dosage": "500mg every 6 hours",
-    "duration": "3-5 days",
-    "interactions": ["Ibuprofen"],
-    "alternatives": ["Acetaminophen", "Aspirin"]
+    "aliases": [
+      "paracetamol alternative",
+      "Brand-1"
+    ],
+    "used_for": "stomach pain, diabetes, sore throat",
+    "dosage": "2 tablet(s) every 6 hours",
+    "duration": "3 to 5 days",
+    "interactions": [
+      "Cetirizine",
+      "Ranitidine"
+    ],
+    "alternatives": [
+      "Benadryl",
+      "Calpol"
+    ]
   },
   {
     "name": "Ibuprofen",
-    "condition": "Inflammation, Pain, Body Pain, Headache",
-    "dosage": "400mg every 4-6 hours",
-    "duration": "As needed",
-    "interactions": ["Paracetamol", "Aspirin"],
-    "alternatives": ["Naproxen", "Diclofenac"]
-  },
-  {
-    "name": "Aspirin",
-    "condition": "Pain, Inflammation, Fever, Heart Health",
-    "dosage": "300mg once daily",
-    "duration": "As directed",
-    "interactions": ["Ibuprofen"],
-    "alternatives": ["Paracetamol", "Clopidogrel"]
-  },
-  {
-    "name": "Amoxicillin",
-    "condition": "Bacterial Infection, Throat Infection, Respiratory Infection",
-    "dosage": "500mg every 8 hours",
-    "duration": "7 days",
-    "interactions": ["Methotrexate"],
-    "alternatives": ["Azithromycin", "Cefixime"]
-  },
-  {
-    "name": "Atorvastatin",
-    "condition": "Cholesterol, Heart Health",
-    "dosage": "10mg once daily",
-    "duration": "Long-term",
-    "interactions": ["Grapefruit"],
-    "alternatives": ["Rosuvastatin", "Simvastatin"]
-  },
-  {
-    "name": "Metformin",
-    "condition": "Diabetes, High Blood Sugar",
-    "dosage": "500mg twice daily",
-    "duration": "Long-term",
-    "interactions": ["Alcohol"],
-    "alternatives": ["Glipizide", "Sitagliptin"]
-  },
-  {
-    "name": "Omeprazole",
-    "condition": "Acidity, Reflux, Gastric",
-    "dosage": "20mg once daily",
-    "duration": "4-8 weeks",
-    "interactions": ["Clopidogrel"],
-    "alternatives": ["Pantoprazole", "Esomeprazole"]
-  },
-  {
-    "name": "Losartan",
-    "condition": "High Blood Pressure, Hypertension",
-    "dosage": "50mg once daily",
-    "duration": "Long-term",
-    "interactions": ["Potassium supplements"],
-    "alternatives": ["Telmisartan", "Enalapril"]
+    "aliases": [
+      "ibuprofen alternative",
+      "Brand-2"
+    ],
+    "used_for": "vomiting, acidity, body pain",
+    "dosage": "1 tablet(s) every 7 hours",
+    "duration": "4 to 6 days",
+    "interactions": [
+      "Fexofenadine",
+      "Allegra"
+    ],
+    "alternatives": [
+      "Glycomet",
+      "Losartan"
+    ]
   },
   {
     "name": "Cetirizine",
-    "condition": "Allergy, Sneezing, Cold, Throat Pain",
-    "dosage": "10mg once daily",
-    "duration": "5-7 days",
-    "interactions": [],
-    "alternatives": ["Loratadine", "Levocetirizine"]
+    "aliases": [
+      "cetirizine alternative",
+      "Brand-3"
+    ],
+    "used_for": "cough, infection, fever",
+    "dosage": "1 tablet(s) every 8 hours",
+    "duration": "5 to 7 days",
+    "interactions": [
+      "Paracetamol",
+      "Grilinctus"
+    ],
+    "alternatives": [
+      "Grilinctus",
+      "ORS"
+    ]
   },
   {
-    "name": "Pantoprazole",
-    "condition": "Acidity, Gastric, Reflux",
-    "dosage": "40mg once daily",
-    "duration": "4 weeks",
-    "interactions": [],
-    "alternatives": ["Omeprazole", "Rabeprazole"]
+    "name": "Loratadine",
+    "aliases": [
+      "loratadine alternative",
+      "Brand-4"
+    ],
+    "used_for": "hypertension, headache, allergy",
+    "dosage": "2 tablet(s) every 6 hours",
+    "duration": "3 to 8 days",
+    "interactions": [
+      "Benadryl",
+      "Clopidogrel"
+    ],
+    "alternatives": [
+      "Omeprazole",
+      "Dicyclomine"
+    ]
+  },
+  {
+    "name": "Amoxicillin",
+    "aliases": [
+      "amoxicillin alternative",
+      "Brand-5"
+    ],
+    "used_for": "vomiting, sore throat, menstrual pain",
+    "dosage": "1 tablet(s) every 7 hours",
+    "duration": "4 to 9 days",
+    "interactions": [
+      "Betadine",
+      "Montair LC"
+    ],
+    "alternatives": [
+      "Hyoscine",
+      "Nimulid"
+    ]
   },
   {
     "name": "Azithromycin",
-    "condition": "Throat Infection, Bacterial Infection",
-    "dosage": "500mg once daily",
-    "duration": "3-5 days",
-    "interactions": ["Antacids"],
-    "alternatives": ["Amoxicillin", "Clarithromycin"]
+    "aliases": [
+      "azithromycin alternative",
+      "Brand-6"
+    ],
+    "used_for": "vomiting, acidity, headache",
+    "dosage": "1 tablet(s) every 8 hours",
+    "duration": "5 to 5 days",
+    "interactions": [
+      "Insulin",
+      "Fexofenadine"
+    ],
+    "alternatives": [
+      "Digene",
+      "Nimulid"
+    ]
   },
   {
-    "name": "Salbutamol",
-    "condition": "Asthma, Wheezing, Shortness of Breath",
-    "dosage": "2 puffs as needed",
-    "duration": "As needed",
-    "interactions": ["Beta-blockers"],
-    "alternatives": ["Levosalbutamol"]
+    "name": "Dolo 650",
+    "aliases": [
+      "dolo 650 alternative",
+      "Brand-7"
+    ],
+    "used_for": "diabetes, asthma, cold",
+    "dosage": "1 tablet(s) every 6 hours",
+    "duration": "3 to 6 days",
+    "interactions": [
+      "Loperamide",
+      "Domperidone"
+    ],
+    "alternatives": [
+      "Vicks",
+      "Insulin"
+    ]
   },
   {
-    "name": "Lisinopril",
-    "condition": "High Blood Pressure, Heart Failure",
-    "dosage": "10mg once daily",
-    "duration": "Long-term",
-    "interactions": ["Potassium supplements"],
-    "alternatives": ["Enalapril", "Ramipril"]
+    "name": "Calpol",
+    "aliases": [
+      "calpol alternative",
+      "Brand-8"
+    ],
+    "used_for": "menstrual pain, cold, cough",
+    "dosage": "1 tablet(s) every 7 hours",
+    "duration": "4 to 7 days",
+    "interactions": [
+      "Hyoscine",
+      "Allegra"
+    ],
+    "alternatives": [
+      "Erythromycin",
+      "Digene"
+    ]
+  },
+  {
+    "name": "Crocin",
+    "aliases": [
+      "crocin alternative",
+      "Brand-9"
+    ],
+    "used_for": "body pain, headache, stomach pain",
+    "dosage": "1 tablet(s) every 8 hours",
+    "duration": "5 to 8 days",
+    "interactions": [
+      "Ciprofloxacin",
+      "T-Minic"
+    ],
+    "alternatives": [
+      "Benadryl",
+      "Allegra"
+    ]
+  },
+  {
+    "name": "Aspirin",
+    "aliases": [
+      "aspirin alternative",
+      "Brand-10"
+    ],
+    "used_for": "fever, stomach pain, menstrual pain",
+    "dosage": "2 tablet(s) every 6 hours",
+    "duration": "3 to 9 days",
+    "interactions": [
+      "Electral",
+      "ORS"
+    ],
+    "alternatives": [
+      "Domperidone",
+      "Crocin"
+    ]
+  },
+  {
+    "name": "Pantoprazole",
+    "aliases": [
+      "pantoprazole alternative",
+      "Brand-11"
+    ],
+    "used_for": "asthma, diabetes, hypertension",
+    "dosage": "1 tablet(s) every 7 hours",
+    "duration": "4 to 5 days",
+    "interactions": [
+      "Azithromycin",
+      "Cetrine"
+    ],
+    "alternatives": [
+      "Telmisartan",
+      "Calpol"
+    ]
+  },
+  {
+    "name": "Ranitidine",
+    "aliases": [
+      "ranitidine alternative",
+      "Brand-12"
+    ],
+    "used_for": "hypertension, body pain, cough",
+    "dosage": "2 tablet(s) every 8 hours",
+    "duration": "5 to 6 days",
+    "interactions": [
+      "Insulin",
+      "Loratadine"
+    ],
+    "alternatives": [
+      "Digene",
+      "Nimulid"
+    ]
+  },
+  {
+    "name": "Domperidone",
+    "aliases": [
+      "domperidone alternative",
+      "Brand-13"
+    ],
+    "used_for": "allergy, cough, asthma",
+    "dosage": "1 tablet(s) every 6 hours",
+    "duration": "3 to 7 days",
+    "interactions": [
+      "Electral",
+      "Aspirin"
+    ],
+    "alternatives": [
+      "Loperamide",
+      "Becosules"
+    ]
+  },
+  {
+    "name": "Mefenamic Acid",
+    "aliases": [
+      "mefenamic acid alternative",
+      "Brand-14"
+    ],
+    "used_for": "cold, asthma, menstrual pain",
+    "dosage": "2 tablet(s) every 7 hours",
+    "duration": "4 to 8 days",
+    "interactions": [
+      "Erythromycin",
+      "Crocin"
+    ],
+    "alternatives": [
+      "Betadine",
+      "T-Minic"
+    ]
+  },
+  {
+    "name": "Digene",
+    "aliases": [
+      "digene alternative",
+      "Brand-15"
+    ],
+    "used_for": "acidity, fever, vomiting",
+    "dosage": "2 tablet(s) every 8 hours",
+    "duration": "5 to 9 days",
+    "interactions": [
+      "Calpol",
+      "Losartan"
+    ],
+    "alternatives": [
+      "Dolo 650",
+      "Paracetamol"
+    ]
+  },
+  {
+    "name": "Allegra",
+    "aliases": [
+      "allegra alternative",
+      "Brand-16"
+    ],
+    "used_for": "diabetes, hypertension, infection",
+    "dosage": "2 tablet(s) every 6 hours",
+    "duration": "3 to 5 days",
+    "interactions": [
+      "Betadine",
+      "Nimulid"
+    ],
+    "alternatives": [
+      "Becosules",
+      "Hyoscine"
+    ]
+  },
+  {
+    "name": "Metformin",
+    "aliases": [
+      "metformin alternative",
+      "Brand-17"
+    ],
+    "used_for": "menstrual pain, asthma, diabetes",
+    "dosage": "2 tablet(s) every 7 hours",
+    "duration": "4 to 6 days",
+    "interactions": [
+      "Loperamide",
+      "Pantoprazole"
+    ],
+    "alternatives": [
+      "Dicyclomine",
+      "Nimulid"
+    ]
+  },
+  {
+    "name": "Losartan",
+    "aliases": [
+      "losartan alternative",
+      "Brand-18"
+    ],
+    "used_for": "hypertension, headache, diabetes",
+    "dosage": "2 tablet(s) every 8 hours",
+    "duration": "5 to 7 days",
+    "interactions": [
+      "Cetirizine",
+      "Clopidogrel"
+    ],
+    "alternatives": [
+      "ORS",
+      "Cetirizine"
+    ]
+  },
+  {
+    "name": "Omeprazole",
+    "aliases": [
+      "omeprazole alternative",
+      "Brand-19"
+    ],
+    "used_for": "asthma, cold, stomach pain",
+    "dosage": "1 tablet(s) every 6 hours",
+    "duration": "3 to 8 days",
+    "interactions": [
+      "Sporlac",
+      "Vicks"
+    ],
+    "alternatives": [
+      "Ciprofloxacin",
+      "Calpol"
+    ]
+  },
+  {
+    "name": "Levocetirizine",
+    "aliases": [
+      "levocetirizine alternative",
+      "Brand-20"
+    ],
+    "used_for": "cough, fever, menstrual pain",
+    "dosage": "1 tablet(s) every 7 hours",
+    "duration": "4 to 9 days",
+    "interactions": [
+      "Domperidone",
+      "Nimulid"
+    ],
+    "alternatives": [
+      "Grilinctus",
+      "Glycomet"
+    ]
+  },
+  {
+    "name": "Diclofenac",
+    "aliases": [
+      "diclofenac alternative",
+      "Brand-21"
+    ],
+    "used_for": "cold, fever, nausea",
+    "dosage": "1 tablet(s) every 8 hours",
+    "duration": "5 to 5 days",
+    "interactions": [
+      "Fexofenadine",
+      "T-Minic"
+    ],
+    "alternatives": [
+      "Loperamide",
+      "Metformin"
+    ]
+  },
+  {
+    "name": "Erythromycin",
+    "aliases": [
+      "erythromycin alternative",
+      "Brand-22"
+    ],
+    "used_for": "fever, body pain, diabetes",
+    "dosage": "2 tablet(s) every 6 hours",
+    "duration": "3 to 6 days",
+    "interactions": [
+      "Ciprofloxacin",
+      "Aspirin"
+    ],
+    "alternatives": [
+      "Amoxicillin",
+      "Dolo 650"
+    ]
+  },
+  {
+    "name": "Ciprofloxacin",
+    "aliases": [
+      "ciprofloxacin alternative",
+      "Brand-23"
+    ],
+    "used_for": "headache, allergy, asthma",
+    "dosage": "2 tablet(s) every 7 hours",
+    "duration": "4 to 7 days",
+    "interactions": [
+      "Montair LC",
+      "Calpol"
+    ],
+    "alternatives": [
+      "Telmisartan",
+      "Hyoscine"
+    ]
+  },
+  {
+    "name": "Zincovit",
+    "aliases": [
+      "zincovit alternative",
+      "Brand-24"
+    ],
+    "used_for": "body pain, vomiting, acidity",
+    "dosage": "2 tablet(s) every 8 hours",
+    "duration": "5 to 8 days",
+    "interactions": [
+      "Ibuprofen",
+      "Ranitidine"
+    ],
+    "alternatives": [
+      "Grilinctus",
+      "Domperidone"
+    ]
+  },
+  {
+    "name": "ORS",
+    "aliases": [
+      "ors alternative",
+      "Brand-25"
+    ],
+    "used_for": "sore throat, cough, nausea",
+    "dosage": "1 tablet(s) every 6 hours",
+    "duration": "3 to 9 days",
+    "interactions": [
+      "Erythromycin",
+      "Cetrine"
+    ],
+    "alternatives": [
+      "Nimulid",
+      "Omeprazole"
+    ]
+  },
+  {
+    "name": "Betadine",
+    "aliases": [
+      "betadine alternative",
+      "Brand-26"
+    ],
+    "used_for": "menstrual pain, headache, stomach pain",
+    "dosage": "2 tablet(s) every 7 hours",
+    "duration": "4 to 5 days",
+    "interactions": [
+      "Domperidone",
+      "Dolo 650"
+    ],
+    "alternatives": [
+      "Insulin",
+      "Crocin"
+    ]
   },
   {
     "name": "Clopidogrel",
-    "condition": "Heart Health, Blood Thinner",
-    "dosage": "75mg once daily",
-    "duration": "Long-term",
-    "interactions": ["Omeprazole"],
-    "alternatives": ["Aspirin", "Ticagrelor"]
+    "aliases": [
+      "clopidogrel alternative",
+      "Brand-27"
+    ],
+    "used_for": "allergy, asthma, vomiting",
+    "dosage": "1 tablet(s) every 8 hours",
+    "duration": "5 to 6 days",
+    "interactions": [
+      "Nimulid",
+      "Pantoprazole"
+    ],
+    "alternatives": [
+      "T-Minic",
+      "Digene"
+    ]
   },
   {
-    "name": "Levothyroxine",
-    "condition": "Thyroid, Hypothyroidism",
-    "dosage": "50mcg once daily",
-    "duration": "Long-term",
-    "interactions": ["Calcium supplements"],
-    "alternatives": ["Liothyronine"]
+    "name": "Fexofenadine",
+    "aliases": [
+      "fexofenadine alternative",
+      "Brand-28"
+    ],
+    "used_for": "acidity, diabetes, cold",
+    "dosage": "2 tablet(s) every 6 hours",
+    "duration": "3 to 7 days",
+    "interactions": [
+      "Betadine",
+      "Digene"
+    ],
+    "alternatives": [
+      "Ondansetron",
+      "Hyoscine"
+    ]
   },
   {
-    "name": "Mebeverine",
-    "condition": "Stomach Pain, Abdominal Cramps, IBS",
-    "dosage": "135mg 2-3 times daily",
-    "duration": "As directed",
-    "interactions": [],
-    "alternatives": ["Drotaverine", "Hyoscine"]
+    "name": "Dicyclomine",
+    "aliases": [
+      "dicyclomine alternative",
+      "Brand-29"
+    ],
+    "used_for": "menstrual pain, headache, sore throat",
+    "dosage": "1 tablet(s) every 7 hours",
+    "duration": "4 to 8 days",
+    "interactions": [
+      "Insulin",
+      "Ranitidine"
+    ],
+    "alternatives": [
+      "Vicks",
+      "Ibuprofen"
+    ]
+  },
+  {
+    "name": "Ondansetron",
+    "aliases": [
+      "ondansetron alternative",
+      "Brand-30"
+    ],
+    "used_for": "nausea, diabetes, cold",
+    "dosage": "1 tablet(s) every 8 hours",
+    "duration": "5 to 9 days",
+    "interactions": [
+      "Nimulid",
+      "Insulin"
+    ],
+    "alternatives": [
+      "Electral",
+      "Dolo 650"
+    ]
+  },
+  {
+    "name": "Hyoscine",
+    "aliases": [
+      "hyoscine alternative",
+      "Brand-31"
+    ],
+    "used_for": "vomiting, infection, hypertension",
+    "dosage": "1 tablet(s) every 6 hours",
+    "duration": "3 to 5 days",
+    "interactions": [
+      "Betadine",
+      "Cetirizine"
+    ],
+    "alternatives": [
+      "Ranitidine",
+      "Dolo 650"
+    ]
+  },
+  {
+    "name": "Telmisartan",
+    "aliases": [
+      "telmisartan alternative",
+      "Brand-32"
+    ],
+    "used_for": "sore throat, headache, asthma",
+    "dosage": "1 tablet(s) every 7 hours",
+    "duration": "4 to 6 days",
+    "interactions": [
+      "Betadine",
+      "Amoxicillin"
+    ],
+    "alternatives": [
+      "Loratadine",
+      "Erythromycin"
+    ]
+  },
+  {
+    "name": "Glycomet",
+    "aliases": [
+      "glycomet alternative",
+      "Brand-33"
+    ],
+    "used_for": "sore throat, menstrual pain, nausea",
+    "dosage": "2 tablet(s) every 8 hours",
+    "duration": "5 to 7 days",
+    "interactions": [
+      "Calpol",
+      "Cetrine"
+    ],
+    "alternatives": [
+      "Montair LC",
+      "Betadine"
+    ]
+  },
+  {
+    "name": "Insulin",
+    "aliases": [
+      "insulin alternative",
+      "Brand-34"
+    ],
+    "used_for": "vomiting, stomach pain, cold",
+    "dosage": "1 tablet(s) every 6 hours",
+    "duration": "3 to 8 days",
+    "interactions": [
+      "ORS",
+      "Sporlac"
+    ],
+    "alternatives": [
+      "Aspirin",
+      "Dolo 650"
+    ]
+  },
+  {
+    "name": "Thyronorm",
+    "aliases": [
+      "thyronorm alternative",
+      "Brand-35"
+    ],
+    "used_for": "stomach pain, body pain, cough",
+    "dosage": "2 tablet(s) every 7 hours",
+    "duration": "4 to 9 days",
+    "interactions": [
+      "Ondansetron",
+      "Omeprazole"
+    ],
+    "alternatives": [
+      "Telmisartan",
+      "Aspirin"
+    ]
+  },
+  {
+    "name": "Vicks",
+    "aliases": [
+      "vicks alternative",
+      "Brand-36"
+    ],
+    "used_for": "hypertension, cold, body pain",
+    "dosage": "1 tablet(s) every 8 hours",
+    "duration": "5 to 5 days",
+    "interactions": [
+      "Glycomet",
+      "Becosules"
+    ],
+    "alternatives": [
+      "Combiflam",
+      "Grilinctus"
+    ]
+  },
+  {
+    "name": "Benadryl",
+    "aliases": [
+      "benadryl alternative",
+      "Brand-37"
+    ],
+    "used_for": "asthma, body pain, cold",
+    "dosage": "1 tablet(s) every 6 hours",
+    "duration": "3 to 6 days",
+    "interactions": [
+      "Sporlac",
+      "Becosules"
+    ],
+    "alternatives": [
+      "Hyoscine",
+      "Pantoprazole"
+    ]
+  },
+  {
+    "name": "Cetrine",
+    "aliases": [
+      "cetrine alternative",
+      "Brand-38"
+    ],
+    "used_for": "cold, headache, menstrual pain",
+    "dosage": "2 tablet(s) every 7 hours",
+    "duration": "4 to 7 days",
+    "interactions": [
+      "Ondansetron",
+      "Amoxicillin"
+    ],
+    "alternatives": [
+      "Erythromycin",
+      "Cetirizine"
+    ]
+  },
+  {
+    "name": "T-Minic",
+    "aliases": [
+      "t-minic alternative",
+      "Brand-39"
+    ],
+    "used_for": "allergy, asthma, infection",
+    "dosage": "1 tablet(s) every 8 hours",
+    "duration": "5 to 8 days",
+    "interactions": [
+      "Paracetamol",
+      "Mefenamic Acid"
+    ],
+    "alternatives": [
+      "Hyoscine",
+      "Thyronorm"
+    ]
+  },
+  {
+    "name": "Nimulid",
+    "aliases": [
+      "nimulid alternative",
+      "Brand-40"
+    ],
+    "used_for": "hypertension, stomach pain, allergy",
+    "dosage": "2 tablet(s) every 6 hours",
+    "duration": "3 to 9 days",
+    "interactions": [
+      "Montair LC",
+      "Becosules"
+    ],
+    "alternatives": [
+      "Ecosprin",
+      "Diclofenac"
+    ]
+  },
+  {
+    "name": "Combiflam",
+    "aliases": [
+      "combiflam alternative",
+      "Brand-41"
+    ],
+    "used_for": "stomach pain, asthma, nausea",
+    "dosage": "2 tablet(s) every 7 hours",
+    "duration": "4 to 5 days",
+    "interactions": [
+      "Azithromycin",
+      "T-Minic"
+    ],
+    "alternatives": [
+      "Loratadine",
+      "Nimulid"
+    ]
+  },
+  {
+    "name": "Becosules",
+    "aliases": [
+      "becosules alternative",
+      "Brand-42"
+    ],
+    "used_for": "body pain, menstrual pain, acidity",
+    "dosage": "2 tablet(s) every 8 hours",
+    "duration": "5 to 6 days",
+    "interactions": [
+      "Glycomet",
+      "Ibuprofen"
+    ],
+    "alternatives": [
+      "Amoxicillin",
+      "Cetrine"
+    ]
+  },
+  {
+    "name": "Loperamide",
+    "aliases": [
+      "loperamide alternative",
+      "Brand-43"
+    ],
+    "used_for": "nausea, asthma, vomiting",
+    "dosage": "1 tablet(s) every 6 hours",
+    "duration": "3 to 7 days",
+    "interactions": [
+      "Benadryl",
+      "Amoxicillin"
+    ],
+    "alternatives": [
+      "Dolo 650",
+      "Clopidogrel"
+    ]
+  },
+  {
+    "name": "Sporlac",
+    "aliases": [
+      "sporlac alternative",
+      "Brand-44"
+    ],
+    "used_for": "hypertension, asthma, fever",
+    "dosage": "1 tablet(s) every 7 hours",
+    "duration": "4 to 8 days",
+    "interactions": [
+      "Sinarest",
+      "Loperamide"
+    ],
+    "alternatives": [
+      "Insulin",
+      "Clopidogrel"
+    ]
+  },
+  {
+    "name": "Electral",
+    "aliases": [
+      "electral alternative",
+      "Brand-45"
+    ],
+    "used_for": "allergy, diabetes, stomach pain",
+    "dosage": "1 tablet(s) every 8 hours",
+    "duration": "5 to 9 days",
+    "interactions": [
+      "Nimulid",
+      "Becosules"
+    ],
+    "alternatives": [
+      "Grilinctus",
+      "Cetrine"
+    ]
+  },
+  {
+    "name": "Ecosprin",
+    "aliases": [
+      "ecosprin alternative",
+      "Brand-46"
+    ],
+    "used_for": "cold, headache, nausea",
+    "dosage": "2 tablet(s) every 6 hours",
+    "duration": "3 to 5 days",
+    "interactions": [
+      "Metformin",
+      "Erythromycin"
+    ],
+    "alternatives": [
+      "Calpol",
+      "Sinarest"
+    ]
+  },
+  {
+    "name": "Montair LC",
+    "aliases": [
+      "montair lc alternative",
+      "Brand-47"
+    ],
+    "used_for": "cold, menstrual pain, sore throat",
+    "dosage": "1 tablet(s) every 7 hours",
+    "duration": "4 to 6 days",
+    "interactions": [
+      "Fexofenadine",
+      "Domperidone"
+    ],
+    "alternatives": [
+      "Cetirizine",
+      "Cetrine"
+    ]
+  },
+  {
+    "name": "Sinarest",
+    "aliases": [
+      "sinarest alternative",
+      "Brand-48"
+    ],
+    "used_for": "cold, hypertension, headache",
+    "dosage": "1 tablet(s) every 8 hours",
+    "duration": "5 to 7 days",
+    "interactions": [
+      "Pantoprazole",
+      "ORS"
+    ],
+    "alternatives": [
+      "Ondansetron",
+      "Ciprofloxacin"
+    ]
+  },
+  {
+    "name": "Grilinctus",
+    "aliases": [
+      "grilinctus alternative",
+      "Brand-49"
+    ],
+    "used_for": "nausea, sore throat, body pain",
+    "dosage": "1 tablet(s) every 6 hours",
+    "duration": "3 to 8 days",
+    "interactions": [
+      "Allegra",
+      "Levocetirizine"
+    ],
+    "alternatives": [
+      "Azithromycin",
+      "Clopidogrel"
+    ]
   }
 ]
