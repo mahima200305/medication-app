@@ -90,6 +90,7 @@ def recommended_by_condition(condition: str):
     matched = []
     for drug in drug_data:
         drug_conditions = drug.get("condition","").lower()
+        print(f"{drug['name']}{drug_conditions}")
         if condition in drug_conditions:
             matched.append(drug["name"])
     if not matched:
