@@ -86,10 +86,11 @@ def get_dosage_duration(name: str):
 # 5. Recommend drugs by condition
 @app.get("/recommended_by_condition")
 def recommended_by_condition(condition: str):
-    condition = condition.lower()
+    condition = condition.strip().lower()
     matched = []
     for drug in drug_data:
-        if condition in drug.get("used_for", "").lower():
+        drug_conditions = drug.get("condition","").lower()
+        if condition in drug_conditions:
             matched.append(drug["name"])
     if not matched:
         raise HTTPException(status_code=404, detail="No recommended drugs found for this condition")
